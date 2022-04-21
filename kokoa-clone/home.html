@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create An Account</title>
+    <style>
+
+    label {
+      font-size: 20px;
+    }
+    
+    h1 {
+      font-size: 60px;
+      box-shadow: 5px 0 8px 6px gray, 6px 7px 0 wheat;
+      margin: 30px;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      width: 760px;
+    }
+    #submit {
+      background-color: pink;
+      padding: 15px;
+      margin: 10px;
+      border: 2px solid whitesmoke;
+    }
+
+    #submit:hover {
+      box-shadow: 5px 0 8px 6px gray, 6px 7px 0 hotpink
+    }
+
+    #button {
+      background-color: pink;
+      padding: 15px;
+      margin: 10px;
+      border: 2px solid whitesmoke;
+    }
+
+    #button:hover {
+      box-shadow: 5px 0 8px 6px gray, 6px 7px 0 hotpink
+    }
+
+    div {
+      margin: 7px;
+    }
+
+  </style>
+  </head>
+  <body>
+    <form>
+      <div class="form_class"> 
+      <h1>Create An Account</h1>
+      <div>
+      <label for="fname">First name</label>
+      <input required type="text" id="fname" placeholder="Firstname" />
+    </div>
+    <div>
+      <label for="lname">Last name</label>
+      <input required type="text" id="lname" placeholder="Lastname" />
+    </div>
+    <div>
+      <label for="email">Email</label>
+      <input required type="email" id="email" placeholder="Email" />
+    </div>
+    <div>
+    <label for="Username">Username</label>
+      <input required type="text" id="uname" placeholder="Username" />
+    </div>
+    <div>
+    <label for="password">Password</label>
+      <input required type="password" id="password" placeholder="Password" minlength="10" />
+      </div>
+      <div>
+      <label for="date">Birth date</label>
+      <input type="date" id="date" />
+    </div>
+    <div>
+      <label for="range">How happy are you?</label>
+      <input type="range" id="range" />
+    </div>
+    <div>
+      <label for="color">What is your fav. color?</label>
+        <input type="color" id="color" />
+    </div>
+      <input type="submit" id="submit" value="Create account" />
+      <button id="button">close</button>
+    </form>
+  </div>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  border: 5px solid mediumaquamarine;
+  height: 100vh;
+}
+
+#playlist {
+  display: flex;
+  margin-top: 60px;
+}
+
+#playlist-box {
+  margin-right: 200px;
+  padding-left: 19px;
+  width: 50px;
+}
+
+.playlist-text {
+  font-size: 20px;
+}
+
+.randomlove-box__cloumn {
+  background-color: #ffcf40;
+  margin: 60px 20px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+  border-radius: 20px;
+}
+
+.randomlove-box__icon {
+  color: white;
+  padding: 40px;
+}
+
+.randomlove-box__text {
+  font-size: 30px;
+}
+
+.randomlove-text__box {
+}
