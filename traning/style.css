@@ -1,0 +1,22 @@
+body {
+ height: 100vh;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin: 10px;
+}
+
+
+
+
+.boxO {
+    width: 200px;
+    height: 100px;
+    background-color: teal;
+}
+
+div {
+    width: 200px;
+    height: 100px;
+    background-color: tomato;
+}
